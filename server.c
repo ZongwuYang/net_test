@@ -17,7 +17,6 @@ static int send_data(int socket, char *buff, int size) {
 			printf("send data failed\n");
             return -1;  
         }     
-		//printf("send buffer lenth = %d\n", tmpres);
         sent += tmpres;  
     }  
     return sent;  
